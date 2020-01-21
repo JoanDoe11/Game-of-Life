@@ -21,7 +21,7 @@ The initial pattern constitutes the seed of the system. The first generation is 
 From most random initial patterns of living cells on the grid, observers will find the population constantly changing as the generations tick by. The patterns that emerge from the simple rules may be considered a form of mathematical beauty.
 
 
-#Python multiprocessing
+# Python multiprocessing
 
 [src=geeksforgeeks]
 Applications in a multiprocessing system are broken to smaller routines that run independently. The operating system allocates these threads to the processors improving performance of the system.

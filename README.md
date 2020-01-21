@@ -17,3 +17,12 @@ At each step in time, the following transitions occur:
 4.  Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
 
 The initial pattern constitutes the seed of the system. The first generation is created by applying the above rules simultaneously to every cell in the seed; births and deaths occur simultaneously. Each generation is a pure function of the preceding one. The rules continue to be applied repeatedly to create further generations.
+
+From most random initial patterns of living cells on the grid, observers will find the population constantly changing as the generations tick by. The patterns that emerge from the simple rules may be considered a form of mathematical beauty.
+
+
+#Python multiprocessing
+
+[src=geeksforgeeks]
+Applications in a multiprocessing system are broken to smaller routines that run independently. The operating system allocates these threads to the processors improving performance of the system.
+Python's multiprocessing module includes an API for diving work between multiple processes.

@@ -1,5 +1,7 @@
 # Game-of-Life
-Parallel solution to Game of Life problem
+Parallel solution to Game of Life problem.
+
+This is a python implementation of the Game of Life algorythm, using a process pool. A task is generated for every chunk of the problem (here - a 1/0 matrix). 
 
 # Conway's Game of Life
 [src=wikipedia]
@@ -25,7 +27,16 @@ From most random initial patterns of living cells on the grid, observers will fi
 
 [src=geeksforgeeks]
 Applications in a multiprocessing system are broken to smaller routines that run independently. The operating system allocates these threads to the processors improving performance of the system.
-Python's multiprocessing module includes an API for diving work between multiple processes.
+
+Python modules used in this project:
+* multiprocessing
+* random
+* functools/partial
+* numpy
+
+Pool object offers a convenient means of parallelizing the execution of a function across multiple input values, distributing the input data across processes (data parallelism).
+Partial functions allow one to derive a function with x parameters to a function with fewer parameters and fixed values set for the more limited function.
+NumPy is used here as an efficient multi-dimensional container of generic data.
 
 # Google Colaboratory
 

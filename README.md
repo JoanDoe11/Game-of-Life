@@ -38,6 +38,10 @@ Pool object offers a convenient means of parallelizing the execution of a functi
 Partial functions allow one to derive a function with x parameters to a function with fewer parameters and fixed values set for the more limited function.
 NumPy is used here as an efficient multi-dimensional container of generic data.
 
+# Python animation
+
+This code was not written by me - I used the code provided by Računarski fakultet.
+
 # Google Colaboratory
 
 [src=colab.research.google]

@@ -26,3 +26,9 @@ From most random initial patterns of living cells on the grid, observers will fi
 [src=geeksforgeeks]
 Applications in a multiprocessing system are broken to smaller routines that run independently. The operating system allocates these threads to the processors improving performance of the system.
 Python's multiprocessing module includes an API for diving work between multiple processes.
+
+# Google Colaboratory
+
+[src=colab.research.google]
+Colaboratory is a free Jupyter notebook environment that requires no setup and runs entirely in the cloud.
+A notebook is a list of cells. Cells contain either explanatory text or executable code and its output.

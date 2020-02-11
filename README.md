@@ -1,7 +1,7 @@
 # Game-of-Life
 Parallel solution to Game of Life problem.
 
-This is a python implementation of the Game of Life algorythm, using a process pool. A task is generated for every chunk of the problem (here - a 1/0 matrix). 
+This is a python implementation of the Game of Life algorithm, using a process pool. A task is generated for every chunk of the problem (here - a 1/0 matrix). 
 
 # Conway's Game of Life
 [src=wikipedia]
